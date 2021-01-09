@@ -1,7 +1,7 @@
 import serial
 import time
 
-device = '/dev/ttyACM0'
+device = '/dev/ttyACM1'
 
 try:
     print("Trying...", device)
@@ -13,4 +13,3 @@ while True:
     time.sleep(0.1)
     data = arduino.readline()
     print(data.decode('utf-8'))
-
