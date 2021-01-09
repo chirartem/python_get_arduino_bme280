@@ -1,7 +1,8 @@
 import serial
 import time
 
-device = '/dev/ttyACM1'
+# device = '/dev/ttyACM0' адрес оригинальной Arduino
+device = '/dev/ttyUSB0'
 
 try:
     print("Trying...", device)
